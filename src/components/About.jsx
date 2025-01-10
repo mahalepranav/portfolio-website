@@ -13,13 +13,15 @@ const About = () => {
       </div>
       <div className='container mt-5'>   
         <div className='row'>  
-          <div className='font-1 col-md-8 pt-5'>
+          <div className='font-1 col-md-8 pt-5 text-center text-md-start'>
             <p>Hello! I'm Pranav Mahale, an aspiring full-stack developer with<br/> a focus on the MERN stack. I have a strong
               passion for web<br/> technologies and am constantly learning and growing my skill<br/> set. I believe in building
               responsive, scalable, and high-performing<br/> web applications. Welcome to my portfolio website, where you<br/> can
               explore my work and projects!</p>
-            <button className='btn btn-outline-dark px-5 mt-5 ms-5 profile-3'>Phone :- 7249811801</button>
-            <button className='btn btn-outline-dark px-5 mt-5 ms-5 profile-3'>Email :- pranavmahale735@gmail.com</button>
+            <div className="d-flex flex-column flex-md-row align-items-center align-items-md-start">
+              <button className='btn btn-outline-dark px-5 mt-5 profile-3'>Phone :- 7249811801</button>
+              <button className='btn btn-outline-dark px-5 mt-5 profile-3'>Email :- pranavmahale735@gmail.com</button>
+            </div>
           </div>
           <div className='col-md-4'>
             <img 
