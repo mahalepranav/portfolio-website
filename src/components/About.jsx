@@ -20,10 +20,10 @@ const About = () => {
               explore my work and projects!</p>
             <div className="d-flex flex-column flex-md-row align-items-center align-items-md-start">
               <button className='btn btn-outline-dark px-5 mt-5 profile-3'>Phone :- 7249811801</button>
-              <button className='btn btn-outline-dark px-5 mt-5 profile-3'>Email :- pranavmahale735@gmail.com</button>
+              <button className='btn btn-outline-dark px-5 mt-5 ms-md-5 profile-3'>Email :- pranavmahale735@gmail.com</button>
             </div>
           </div>
-          <div className='col-md-4'>
+          <div className='col-md-4 d-flex justify-content-center mt-4 mt-md-'>
             <img 
               src='/assets/profile-pic.jpg'
               alt=''
