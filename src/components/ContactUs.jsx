@@ -1,23 +1,3 @@
-// import React from 'react';
-// import './Mainpage.css';
-
-// const ContactUs = () => {
-//   return (
-//     <>    
-//     <div style={{backgroundColor: "rgb(238,237,243)", paddingTop: "50px"}}>
-//       <div >
-//         <p className='font text-center pt-5'>Contact</p>
-//       </div>
-//       <div class="h-divider">
-//         <div class="shadow"></div>
-//       </div>
-//     </div>
-//     </>
-//   )
-// }
-
-// export default ContactUs;
-
 import React from 'react';
 import { Phone, Email, LinkedIn } from '@mui/icons-material';
 

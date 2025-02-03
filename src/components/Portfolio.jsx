@@ -52,7 +52,7 @@ const Portfolio = () => {
                     full-stack development skills, including database management, API creation, front-end design, 
                     and real-time features.
                   </p>
-                  <a href="https://dunzo-clone-frontend-navy.vercel.app/" target="_blank" rel="noopener noreferrer"><button className='btn btn-outline-dark px-4 mt-2'>Visit Site</button></a>
+                  <button className='btn btn-outline-dark px-4 mt-2'>Visit Site</button>
                 </div>
               </div>
             </div>

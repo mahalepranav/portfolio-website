@@ -11,7 +11,7 @@ const MainPage = () => {
     const handleDownload = () => {
       const link = document.createElement('a');
       
-      link.href = '/assets/Resume.pdf'; 
+      link.href = '/assets/Pranav_Resume_.pdf'; 
       link.download = 'Resume.pdf';       
       link.click();
     };
