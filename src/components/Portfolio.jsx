@@ -44,15 +44,14 @@ const Portfolio = () => {
           <div className='col-md-4 item mt-5'>
             <img src='/assets/project-3.png' alt='' className='profile-1 img-fluid'/>
             <div className='middle'>
-              <div className='text1 text-center'>Dunzo Clone<br/>MongoDB, Express.js, React.js, and Node.js
-                  <p className='text2'>The Dunzo Clone project using MongoDB, Express.js, React.js, and Node.js 
-                    that replicates the core functionality of the Dunzo application. The platform enables users 
-                    to order groceries, food, fruits & vegetables, pet supplies and flower gifts while offering 
-                    real-time feeling, secure payments, and a user-friendly interface. This project demonstrates 
-                    full-stack development skills, including database management, API creation, front-end design, 
-                    and real-time features.
+              <div className='text1 text-center'>Ecommerce Website<br/>MongoDB Atlas, Express.js, React.js, and Node.js
+                  <p className='text2'>Developed a full-stack e-commerce web application using ReactJS, Redux
+                    and Tailwind CSS for the frontend, and Node.js, Express, and MongoDB Atlas for the backend. 
+                    The platform includes user authentication, product browsing, cart management, and admin 
+                    features for product management. Users can register, log in, add items to the cart, and 
+                    make purchases, while admins can manage products and users.
                   </p>
-                  <button className='btn btn-outline-dark px-4 mt-2'>Visit Site</button>
+                  <a href="https://ecommerce-frontend-ten-red.vercel.app/" target="_blank" rel="noopener noreferrer"><button className='btn btn-outline-dark px-4 mt-2'>Visit Site</button></a>
                 </div>
               </div>
             </div>

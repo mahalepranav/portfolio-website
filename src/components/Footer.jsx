@@ -19,7 +19,7 @@ const Footer = () => {
         <NavLink to="https://www.instagram.com/pranavmahale_?igsh=MWxjNjdxNTcyN3MzOQ=="><InstagramIcon fontSize="large" color="primary" style={styles.icon} /></NavLink>
       </Box>
       <div className="footer text-center pb-3 pt-4">
-        <p>© 2024 Pranav Mahale. All rights reserved.</p>
+        <p>© 2025 Pranav Mahale. All rights reserved.</p>
       </div>
     </div>
   );
