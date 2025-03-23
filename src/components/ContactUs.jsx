@@ -21,9 +21,9 @@ const GetInTouch = () => {
       <h2 style={styles.heading}>Get in Touch</h2>
       <div style={styles.grid}>
         {contactDetails.map((detail, index) => (
-          <div key={index} style={styles.card}>
-            {detail.icon}
+          <div key={index} style={styles.card} >
             <a href={detail.link} target="_blank" rel="noopener noreferrer" style={styles.link}>
+              <p>{detail.icon}</p>
               {detail.text}
             </a>
           </div>
@@ -56,6 +56,7 @@ const styles = {
     borderRadius: '8px',
     boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
     display: 'flex',
+    justifyContent: 'center',
     flexDirection: 'column',
     alignItems: 'center',
     transition: 'transform 0.2s',

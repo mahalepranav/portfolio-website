@@ -12,8 +12,8 @@ const Portfolio = () => {
         <div class="shadow"></div>
       </div>
       <div className='container mt-5'>
-        <div className='row'>
-          <div className='col-md-4 item mt-5'>
+        <div className='row justify-content-center'>
+          <div className='col-md-6 col-lg-4 item mt-5'>
             <img src='/assets/project-1.png' alt='' className='profile-1 img-fluid'/>
             <div className='middle'>
               <div className='text1 text-center'>Luxury Villa Website <br/>HTML, CSS
@@ -25,7 +25,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className='col-md-4 item mt-5'>
+          <div className='col-md-6 col-lg-4 item mt-5'>
             <img src='/assets/project-2.png' alt='' className='profile-1 img-fluid'/>
             <div className='middle'>
               <div className='text1 text-center'>YAMAHA Clone Website<br/>HTML, CSS Bootstrap, JavaScript
@@ -41,7 +41,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className='col-md-4 item mt-5'>
+          <div className='col-md-6 col-lg-4 item mt-5'>
             <img src='/assets/project-3.png' alt='' className='profile-1 img-fluid'/>
             <div className='middle'>
               <div className='text1 text-center'>Ecommerce Website<br/>MongoDB Atlas, Express.js, React.js, and Node.js
